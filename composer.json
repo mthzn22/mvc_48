@@ -1,0 +1,25 @@
+{
+    "name": "fariafabioeduardo/mvc_48",
+    "description": "Projeto criado em sala para estudo de MVC COMPOSER POO",
+    "type": "project",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Fabio Eduardo Faria",
+            "email": "fabioeduardo@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {
+        "filp/whoops": "^2.15"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Core\\": "core/"
+        },
+        "files": [
+            "helpers/helpers.php"
+        ]
+    }
+}
